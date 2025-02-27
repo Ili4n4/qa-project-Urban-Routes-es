@@ -1,3 +1,5 @@
+from re import search
+
 from selenium import webdriver
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
@@ -50,6 +52,8 @@ class UrbanRoutesPage:
     Button_x = (By.XPATH, '//*[@id="root"]/div/div[5]/div[2]/div[2]/div[1]/div[2]/div')
 
     def __init__(self, driver):
+        self.search_button = None
+        self.search_field = None
         self.driver = driver
         self.imput_add_card_code = None
         self.imput_add_card_number = None
@@ -57,6 +61,24 @@ class UrbanRoutesPage:
         self.phone_number_field_locator = (By.ID, "np-text")
         self.phone_number_input_locator = (By.ID, "phone")
         self.request_button_locator = (By.CLASS_NAME, "reqs-head")
+
+
+
+    def wait_for_load_home_page(self):
+        WebDriverWait(self.driver, 3).until(
+            EC.visibility_of_element_located(self.search_field)
+        )
+
+    def enter_search_text(self, text):
+        search_box = self.driver.find_element(*self.search_field)
+        search_box.clear()
+        search_box.send_keys(text)
+
+    def click_search_button(self):
+        self.driver.find_element(*self.search_button).click()
+
+    def get_search_field_text(self):
+        return self.driver.find_element(*self.search_field).get_attribute("value")
 
 
     def set_from(self, from_address):
@@ -70,6 +92,7 @@ class UrbanRoutesPage:
         WebDriverWait(self.driver, 5).until(
             EC.presence_of_element_located(self.to_address)
         ).send_keys(to_address)
+
     def get_from(self):
         return self.driver.find_element(*self.from_address).get_property('value')
 
@@ -79,6 +102,8 @@ class UrbanRoutesPage:
     def set_route(self, address_from, address_to):
         self.set_from(address_from)
         self.set_to(address_to)
+
+
 
     def get_call_taxi_button(self):
         return WebDriverWait(self.driver, 5).until(
