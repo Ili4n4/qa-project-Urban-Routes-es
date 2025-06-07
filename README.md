@@ -1,12 +1,14 @@
 
 Nombre de proyecto: Automatización de solicitud de taxi 
                     para la App Urban Routes
-
+                  
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Descripción:
+
+Objetivo:
 
 El proyecto de automatización tiene como objetivo crear pruebas automatizadas para 
 comprobar la funcionalidad del proceso de solicitud de un taxi en la plataforma Urban Routes.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Instrucciones:
 1. Clona el repositorio en tu computadora
