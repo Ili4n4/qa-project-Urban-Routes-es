@@ -1,9 +1,8 @@
-﻿Iliana Jiménez Murillo / Cohort 20
 
 Nombre de proyecto: Automatización de solicitud de taxi 
                     para la App Urban Routes
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Descripción:
 
 El proyecto de automatización tiene como objetivo crear pruebas automatizadas para 
