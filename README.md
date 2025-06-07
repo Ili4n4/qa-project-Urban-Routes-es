@@ -10,6 +10,15 @@ El proyecto de automatización tiene como objetivo crear pruebas automatizadas p
 comprobar la funcionalidad del proceso de solicitud de un taxi en la plataforma Urban Routes.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Tecnologías:
+
+PyCharm
+GitHub
+Selenium
+Pytest
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Instrucciones:
 1. Clona el repositorio en tu computadora
 2. Trabaja con el proyecto de forma local
@@ -25,13 +34,7 @@ GitHub
 Selenium
 Pytest
 
-Técnicas utilizadas:
-main.py
-data.py
-.gitignore
-Urban_RoutesPage.py
-SMS.py
-README.md
+
 
 Instrucciones detalladas para ejecutar las pruebas
 
