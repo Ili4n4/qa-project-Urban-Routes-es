@@ -8,6 +8,9 @@ Objetivo:
 
 El proyecto de automatización tiene como objetivo crear pruebas automatizadas para 
 comprobar la funcionalidad del proceso de solicitud de un taxi en la plataforma Urban Routes.
+
+	•	Objetivo del proyecto: Crear pruebas automatizadas para verificar la funcionalidad del proceso de solicitud de un taxi en la plataforma Urban Routes.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Tecnologías:
