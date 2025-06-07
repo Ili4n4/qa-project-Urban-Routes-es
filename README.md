@@ -4,18 +4,18 @@ Proyecto: Automatización de solicitud de taxi
                   
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Objetivo:
+🎯Objetivo:
 
 El proyecto de automatización tiene como objetivo crear pruebas automatizadas para 
 comprobar la funcionalidad del proceso de solicitud de un taxi en la plataforma Urban Routes.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Tecnologías: PyCharm, GitHub, Selenium, Pytest
+⚒️Tecnologías: PyCharm, GitHub, Selenium, Pytest
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Pasos a seguir:
+📍Pasos a seguir:
 
 1. Cloné el repositorio en tu computadora
 2. Trabajé con el proyecto de forma local
@@ -26,7 +26,7 @@ las pruebas en la clase TestUrbanRoutes.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Resultados:
+🪄Resultados:
 
 Implementé pruebas automatizadas con Selenium y Pytest que cubren el 100 % del flujo de solicitud de taxi
 
